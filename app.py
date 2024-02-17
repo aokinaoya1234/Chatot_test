@@ -4,7 +4,7 @@ import requests
 
 
 def create_response(message):
-    url = ""  # 実際のエンドポイントURLに置き換えてください
+    url = "https://us-central1-investment-prediction.cloudfunctions.net/function-1"  # 実際のエンドポイントURLに置き換えてください
     data = {"message": message}
     headers = {"Content-Type": "application/json"}
 
